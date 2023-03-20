@@ -5,6 +5,7 @@
  * main - Entry point
  *
  * Description: C program prints without using printf or puts
+ * using write function followed by a new line to the standard output 2
  *
  * return: 1 (not success)
 */
