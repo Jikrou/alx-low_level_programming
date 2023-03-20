@@ -1,10 +1,18 @@
 #include <stdio.h>
-/***/
+/**
+ * main - Entry point
+ *
+ * Desctripion: C program print the combination of three
+ * numbers
+ *
+ * Return: 0 (Success)
+*/
 int main(void)
 {
 	int i;
 	int j;
 	int k;
+
 	for (i = 48; i < 57; i++)
 	{
 		for (j = i + 1; j <= 57; j++)
