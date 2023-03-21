@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * jack_bauer - print every minte of the day
- * return: 0 (Success)
+ * return: every minute of the day(Success)
 */
 void jack_bauer(void)
 {
@@ -18,6 +18,5 @@ void jack_bauer(void)
 			_putchar('\n');
 		}
 	}
-	return (0);
 }
 
