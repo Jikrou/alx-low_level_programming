@@ -6,7 +6,7 @@
  *
  * Return: the total of the  two integer
 */
-int add(int i, int j)
+int add(int , int) 
 {
 	int i;
 	int j;
