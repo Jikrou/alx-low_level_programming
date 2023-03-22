@@ -19,7 +19,7 @@ for (i = 0; i <= 9; i++)
 	{
 		int multi = i * j;
 
-		if (multi >= 0)
+		if (multi < 10)
 		{
 		_putchar(multi + '0');
 		}
