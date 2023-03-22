@@ -19,7 +19,15 @@ for (i = 0; i <= 9; i++)
 	{
 		int multi = i * j;
 
+		if (multi >= 0)
+		{
 		_putchar(multi + '0');
+		}
+		else
+		{
+			_putchar((multi / 10) + '0');
+			_putchar((multi % 10) + '0');
+		}
 
 		if (j == 9)
 		{
