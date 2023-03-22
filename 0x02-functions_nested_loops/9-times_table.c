@@ -22,14 +22,14 @@ int multi = i * j;
 if (multi == 0)
 {
 _putchar('0');
-_putchar(',');
+_putchar(', ');
 _putchar(' ');
 _putchar(' ');
 }
 else if (multi < 10)
 {
 _putchar(multi + '0');
-_putchar(',');
+_putchar(', ');
 _putchar(' ');
 _putchar(' ');
 }
