@@ -30,7 +30,7 @@ if (j == 9)
 {
 _putchar('\n');
 }
-else 
+else
 {
 	_putchar(',');
 }
