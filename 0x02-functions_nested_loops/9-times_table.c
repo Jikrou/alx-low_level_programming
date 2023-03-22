@@ -24,6 +24,7 @@ if (multi == 0)
 _putchar('0');
 _putchar(',');
 _putchar(' ');
+_putchar(' ');
 }
 else if (multi < 10)
 {
