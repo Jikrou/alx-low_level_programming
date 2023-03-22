@@ -1,13 +1,8 @@
 #include "main.h"
 /**
- * times_tables - print the multiplication tables
+ * times_table - Prints the 9 times table, starting with 0
  *
- * Description:a function that take no arguement
- * and prints the product of the multiplication tables
- * starting from 0 to 9, separated by commas and space
- * where i represent the columns and j the row
- *
- * Return:no value is returned
+ * Return: Nothing
 */
 void times_table(void)
 {
@@ -21,24 +16,24 @@ int multi = i * j;
 
 if (multi == 0)
 {
+_putchar(' ');
+_putchar(' ');
 _putchar('0');
 _putchar(',');
-_putchar(' ');
-_putchar(' ');
 }
 else if (multi < 10)
 {
+_putchar(' ');
+_putchar(' ');
 _putchar((multi % 10) + '0');
 _putchar(',');
-_putchar(' ');
-_putchar(' ');
 }
 else
 {
+_putchar(' ');
 _putchar((multi / 10) + '0');
 _putchar((multi % 10) + '0');
 _putchar(',');
-_putchar(' ');
 }
 if (j == 9)
 {
