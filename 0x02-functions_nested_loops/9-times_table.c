@@ -25,13 +25,11 @@ _putchar('0');
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
-_putchar(' ');
 }
 else if (multi < 10)
 {
-_putchar(multi + '0');
+_putchar((multi % 10) + '0');
 _putchar(',');
-_putchar(' ');
 _putchar(' ');
 _putchar(' ');
 }
