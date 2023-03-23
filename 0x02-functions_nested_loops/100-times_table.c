@@ -13,9 +13,9 @@ if (n >= 0 && n <= 15)
 for (i = 0; i <= n; i++)
 {
 _putchar('0');
-_putchar(',');
 for (j = 1; j <= n; j++)
 {
+_putchar(',');
 multi = i * j;
 if (multi < 10)
 {
@@ -40,8 +40,6 @@ _putchar((multi % 10) + '0');
 }
 if (j == n)
 _putchar('\n');
-else
-_putchar(',');
 }
 }
 }
