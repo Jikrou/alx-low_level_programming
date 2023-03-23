@@ -45,6 +45,4 @@ _putchar(',');
 }
 }
 }
-else
-_putchar('\n');
 }
