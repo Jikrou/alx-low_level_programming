@@ -19,8 +19,9 @@ int main(void)
 				printf("%d ", i);
 			       n = n / i;
 			}
-			i++;
 		}
+
+			i++;
 	}
 printf("\n");
 return (0);
