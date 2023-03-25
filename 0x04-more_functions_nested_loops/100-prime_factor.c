@@ -21,7 +21,6 @@ n = n / i;
 }
 i++;
 }
-printf("%d ", i);
-printf("\n");
+printf("%d\n ", i);
 return (0);
 }
