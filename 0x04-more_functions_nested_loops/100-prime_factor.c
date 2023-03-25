@@ -10,19 +10,18 @@ int main(void)
 	int long n = 612852475143;
 	int i = 2;
 
-	while (n != 1)
-	{
-		if (n % i == 0)
-		{
-			while (n % i == 0)
-			{
-				printf("%d ", i);
-			       n = n / i;
-			}
-		}
-
-			i++;
-	}
+while (n != 1)
+{
+if (n % i == 0)
+{
+while (n % i == 0)
+{
+n = n / i;
+}
+}
+i++;
+}
+printf("%d ", i);
 printf("\n");
 return (0);
 }
