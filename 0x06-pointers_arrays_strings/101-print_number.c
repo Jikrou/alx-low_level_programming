@@ -24,6 +24,5 @@ void print_number(int n)
 		n = n - dig * div;
 		div = div / 10;
 	}
-	_putchar('\n');
 }
 
