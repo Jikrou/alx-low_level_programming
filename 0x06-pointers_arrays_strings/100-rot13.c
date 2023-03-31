@@ -26,5 +26,6 @@ for (i = 0; str[i] != '\0'; i++)
 		cyp[i] = (c);
 	}
 }
-	return (cyp);
+cyp[i] = '\0';
+return (cyp);
 }
