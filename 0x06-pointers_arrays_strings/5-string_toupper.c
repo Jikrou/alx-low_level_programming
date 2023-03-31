@@ -7,6 +7,8 @@
 */
 char *string_toupper(char *st)
 {
+	char *ptr = st;
+
 	while (*st != '\0')
 	{
 		if (*st >= 'a' && *st <= 'z')
@@ -15,6 +17,6 @@ char *string_toupper(char *st)
 		}
 		st++;
 	}
-	return (st);
+	return (ptr);
 }
 
