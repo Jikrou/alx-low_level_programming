@@ -25,4 +25,3 @@ void print_number(int n)
 		div = div / 10;
 	}
 }
-
