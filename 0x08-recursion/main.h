@@ -9,4 +9,5 @@ int is_prime_number(int n);
 int _sqrt_helper(int n, int i);
 int prime(int n, int i);
 int is_palindrome(char *s);
-int palindrome_recursion(char *s, int b, int e)
+int _palindrome_recursion(char *s, int b, int e);
+int wildcmp(char *s1, char *s2);
