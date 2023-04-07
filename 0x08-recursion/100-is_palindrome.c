@@ -47,7 +47,6 @@ return (1 + _strlen_recursion(s + 1));
  */
 int _palindrome_recursion(char *s, int b, int e)
 {
-	
 if (b >= e)
 return (1);
 
