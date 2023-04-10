@@ -14,20 +14,17 @@
 
 int main(int argc, char *argv[])
 {
-	int i, args;
-	int result = 1;
+	int arg1, arg2;
+	int result = 0;
 
-	if (argc < 2)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	for (i = 1; i < argc; i++)
-	{
-		args = atoi(argv[i]);
-
-		result = result * args;
-	}
+		arg1 = atoi(argv[1]);
+		arg2 = atoi(argv[2]);
+		result = arg1 * arg2;
 
 	printf("%d\n", result);
 	return (0);
