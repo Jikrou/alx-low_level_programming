@@ -17,22 +17,18 @@ int main(int argc, char *argv[])
 	int i, args;
 	int result = 1;
 
-	if (argc >= 2)
+	if (argc < 2)
 	{
+		printf("Error\n");
+		return (1);
+	}
 	for (i = 1; i < argc; i++)
 	{
 		args = atoi(argv[i]);
 
 		result = result * args;
 	}
-	return (result);
-	printf("%d\n", result);
-	}
-	else
-	{
-		printf("Error\n");
-		return (1);
-	}
 
+	printf("%d\n", result);
 	return (0);
 }
