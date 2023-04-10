@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 /**
  * main - entry point
  * Description: a program that adds positive numbers.If no
@@ -13,22 +14,27 @@
 */
 int main(int argc, char *argv[])
 {
-	int i, args;
+	int i, j, args;
 	int result = 0;
+	char *argn;
 
-	if (argc < 1)
+	if (argc == 1)
 	{
 		printf("0\n");
+		return (0);
 	}
 	for (i = 1; i < argc; i++)
 	{
-	args = atoi(argv[i]);
+	argn = argv[i];
+	for (j = 0; argn[j] != '\0'; j++)
 
-		if (args == 0 && argv[i][0] != '\0')
+
+		if (!isdigit(argn[j]))
 		{
 			printf("Error\n");
 			return (1);
 		}
+	args = atoi(argn);
 	result += args;
 	}
 	printf("%d\n", result);
