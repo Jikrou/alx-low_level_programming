@@ -50,8 +50,8 @@ int coins_cal(int cents)
 
 	if (cents < 0)
 	{
-		printf("0\n");
 		return (0);
+		printf("\n");
 	}
 
 	while (cents >= 25)
