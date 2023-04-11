@@ -17,18 +17,19 @@ int coins_cal(int cents);
 
 int main(int argc, char *argv[])
 {
-
-	int cents = atoi(argv[1]);
+	int cents;
 	int coins;
-
-	coins = coins_cal(cents);
 
 	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
+	cents = atoi(argv[1]);
+	coins = coins_cal(cents);
+
 	printf("%d\n", coins);
+
 		return (0);
 
 }
