@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+
+int coins_cal(int cents);
 /**
  * main - Entry point
  * Description: a function that prints the minimum number of
@@ -19,14 +21,13 @@ int main(int argc, char *argv[])
 	int cents = atoi(argv[1]);
 	int coins;
 
+	coins = coins_cal(cents);
+
 	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
-
-	 coins = coins_cal(cents);
-
 	printf("%d\n", coins);
 		return (0);
 
@@ -49,6 +50,7 @@ int coins_cal(int cents)
 	if (cents < 0)
 	{
 		printf("0\n");
+		return (0);
 	}
 
 	while (cents >= 25)
