@@ -1,6 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
-/***/
+/**
+ * malloc_checked - a function that allocates memory using malloc
+ * @b: an integer
+*/
 void *malloc_checked(unsigned int b)
 {
 	void *ptr = malloc(b);
