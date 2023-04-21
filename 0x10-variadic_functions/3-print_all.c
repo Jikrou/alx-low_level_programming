@@ -36,7 +36,7 @@ switch (*sp)
 		{
 			printf("(nil)");
 		}
-		else if (n4 != NULL)
+		if (n4 != NULL)
 		{
 			printf("%s", n4);
 		}
